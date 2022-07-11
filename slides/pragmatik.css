@@ -1,0 +1,116 @@
+/*!
+ * @theme pragmatik
+ * @author Charath Ranganathan
+ *
+ * @auto-scaling true
+ * @size 16:9 1280px 720px
+ * @size 4:3 960px 720px
+*/
+@import url("https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.1.0/github.min.css");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+@import-theme "gaia";
+/* Variables */
+h1 {
+  color: #0e6572;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+h2 {
+  color: #99004C;
+  font-weight: 600;
+}
+
+code {
+  background-color: #fff;
+  color: #2A2A2A;
+  font-size: 1em;
+  margin-left: 0px;
+  padding-left: 0px;
+  font-family: "Jetbrains Mono", monospace;
+}
+
+pre > code {
+  font-family: "Jetbrains Mono", monospace;
+  font-size: 0.85em;
+  background-color: #fff;
+  color: #2A2A2A;
+  line-height: 1em;
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 100%;
+  padding: 0.5em;
+}
+
+section {
+  background-color: #fff;
+  color: #2A2A2A;
+  font-family: "Roboto", sans-serif;
+  padding: 50px;
+}
+section .hljs {
+  background: white;
+  color: black;
+}
+section .hljs-comment,
+section .hljs-quote {
+  color: #800;
+}
+section .hljs-keyword,
+section .hljs-selector-tag,
+section .hljs-section,
+section .hljs-title,
+section .hljs-name {
+  color: #008;
+}
+section .hljs-variable,
+section .hljs-template-variable {
+  color: #660;
+}
+section .hljs-string,
+section .hljs-selector-attr,
+section .hljs-selector-pseudo,
+section .hljs-regexp {
+  color: #080;
+}
+section .hljs-literal,
+section .hljs-symbol,
+section .hljs-bullet,
+section .hljs-meta,
+section .hljs-number,
+section .hljs-link {
+  color: #066;
+}
+section .hljs-title,
+section .hljs-doctag,
+section .hljs-type,
+section .hljs-attr,
+section .hljs-built_in,
+section .hljs-params {
+  color: #606;
+}
+section .hljs-attribute,
+section .hljs-subst {
+  color: #000;
+}
+section .hljs-formula {
+  background-color: #eee;
+  font-style: italic;
+}
+section .hljs-selector-id,
+section .hljs-selector-class {
+  color: #9B703F;
+}
+section .hljs-addition {
+  background-color: #baeeba;
+}
+section .hljs-deletion {
+  background-color: #ffc8bd;
+}
+section .hljs-doctag,
+section .hljs-strong {
+  font-weight: bold;
+}
+section .hljs-emphasis {
+  font-style: italic;
+}/*# sourceMappingURL=pragmatik.css.map */

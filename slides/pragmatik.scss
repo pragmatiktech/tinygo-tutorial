@@ -1,0 +1,139 @@
+/*!
+ * @theme pragmatik
+ * @author Charath Ranganathan
+ *
+ * @auto-scaling true
+ * @size 16:9 1280px 720px
+ * @size 4:3 960px 720px
+*/
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.1.0/github.min.css');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+@import-theme "gaia";
+
+/* Variables */
+$h1-color: #0e6572;
+$h2-color: #99004C;
+$bg-color: #fff;
+$fg-color: #2A2A2A;
+
+h1 {
+  color: $h1-color;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+h2 {
+  color: $h2-color;
+  font-weight: 600;
+}
+
+code {
+  background-color: $bg-color;
+  color: $fg-color;
+  font-size: 1em;
+  margin-left: 0px;
+  padding-left: 0px;
+  font-family: "Jetbrains Mono", monospace;
+}
+
+pre > code {
+  font-family: 'Jetbrains Mono', monospace;
+  font-size: 0.85em;
+  background-color: $bg-color;
+  color: $fg-color;
+  line-height: 1.0em;
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 100%;
+  padding: 0.5em;
+}
+
+section {
+  background-color: $bg-color;
+  color: $fg-color;
+  font-family: "Roboto", sans-serif;
+  padding: 50px;
+
+  // hl.js style GoogleCode
+  .hljs {
+    background: white;
+    color: black;
+  }
+
+  .hljs-comment,
+  .hljs-quote {
+    color: #800;
+  }
+
+  .hljs-keyword,
+  .hljs-selector-tag,
+  .hljs-section,
+  .hljs-title,
+  .hljs-name {
+    color: #008;
+  }
+
+  .hljs-variable,
+  .hljs-template-variable {
+    color: #660;
+  }
+
+  .hljs-string,
+  .hljs-selector-attr,
+  .hljs-selector-pseudo,
+  .hljs-regexp {
+    color: #080;
+  }
+
+  .hljs-literal,
+  .hljs-symbol,
+  .hljs-bullet,
+  .hljs-meta,
+  .hljs-number,
+  .hljs-link {
+    color: #066;
+  }
+
+  .hljs-title,
+  .hljs-doctag,
+  .hljs-type,
+  .hljs-attr,
+  .hljs-built_in,
+  .hljs-params {
+    color: #606;
+  }
+
+  .hljs-attribute,
+  .hljs-subst {
+    color: #000;
+  }
+
+  .hljs-formula {
+    background-color: #eee;
+    font-style: italic;
+  }
+
+  .hljs-selector-id,
+  .hljs-selector-class {
+    color: #9B703F
+  }
+
+  .hljs-addition {
+    background-color: #baeeba;
+  }
+
+  .hljs-deletion {
+    background-color: #ffc8bd;
+  }
+
+  .hljs-doctag,
+  .hljs-strong {
+    font-weight: bold;
+  }
+
+  .hljs-emphasis {
+    font-style: italic;
+  }
+  // end hl.js style
+}
